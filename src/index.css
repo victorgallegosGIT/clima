@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: fantasy;
+  overflow-y:hidden;
+}
+nav .brand-logo {
+  color: rgb(248, 250, 116);
+  display: block;
+  text-align: center;
+  position: relative;
+  animation: dd infinite 5s linear;
+  
+}
+
+.contenedor-form {
+  height: 100vh;
+  padding: 3rem 0 1px 0;
+  background-color:papayawhip
+}
+.mensaje {
+  text-align: center;
+  font-size: 2rem;
+}
+.buscador i {
+  color: magenta 
+;
+  width: 100%;
+}
+.error {
+  padding: 1rem!important;
+  color:rgb(117, 238, 18);
+  margin-top: 3rem;
+  text-align: center;
+  text-emphasis: left;
+}
+.card h2 {
+  color: coral;
+  font-size: 1.6rem;
+  text-align: center;
+}
+.card p {
+  color: darkgoldenrod;
+  text-align: center;
+  font-size: 1.1rem;
+}
+.temperatura {
+  font-size: 2rem!important
+}
+.temperatura span {
+  font-size: 2rem!important;
+  vertical-align: super;
+}
+
+.btn-block {
+
+  display: block!important;
+}
+
+.error {
+  padding: 1rem!important;
+  text-align: center!important;
+  color: black!important;
+}
+.p{
+  margin-top: 1px!important;
+}
+
+@keyframes dd {
+  from {
+    transform: rotate3d(0,1,0,0deg)
+  }
+  to {
+    transform: rotate3d(0,1,0,360deg)
+  }
+}
